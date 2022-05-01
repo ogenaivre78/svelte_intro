@@ -39,7 +39,7 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
-Explication :
+# Explication :
 
 Reprise d’un repo js :
 git@github.com:ImKennyYip/2048.git
@@ -91,3 +91,16 @@ Gestion du state avec des variables locales visible uniquement dans le composant
 possiblité de gérer un state globale dans un context, le state sera visible dans tous les composants enfants
 
 possibilité de gérer un state visible dans toute l’application avec la création d’un store
+
+# Les avantages :
+
+Le poids et la vitesse de chargement
+Un des gros avantages du framework Svelte est, comme son nom l’indique, son poids très léger. En effet, une fois le code compilé, l’application pèse 3 à 4 fois moins qu’avec une compilation sous React ou VueJs.
+
+un benchmark révèle que le framework est 35 fois plus rapide que React et 50 fois plus que VueJs.
+
+En fait, Svelte veut vous permettre de réduire vos lignes de code pour que vos programmes restent lisibles. Et c’est réussi ! En moyenne, pour une fonction, le framework JavaScript aura besoin de 40% de lignes en moins que React.
+
+Le créateur de Svelte, Rich HARRIS, explique qu’il n’a pas voulu inclure de DOM virtuel pour la simple raison que cela représentait une couche de plus à exécuter lors du chargement de l’application.
+
+Le DOM n’est donc plus manipulé directement par l’auteur du programme, mais par le framework JavaScript directement.
