@@ -41,31 +41,33 @@ You can preview the production build with `npm run preview`.
 
 # Explication :
 
-Reprise d’un repo js :
-git@github.com:ImKennyYip/2048.git
+Idea taken from ImKennyYip js :
+git@github.com:ImKennyYip/2048.git -- https://github.com/ImKennyYip/2048
 
-Création d’un projet svelteKit :
+Building of svelteKit project :
 npm init svelte@next
 
-Lancer l’application dans un browser :
+Launch app into the browser :
 npm run dev -- --open
 
-Pour builder l’application en production :
+To build it in production :
 npm run build
 
-Système de routing avec gesetion de l’arborescence des fichiers dans le répertoire routes
-racine “/”
+Routing system : 
+root “/”
 rép todos “/todos”
 
-Création d’une route games “/games” intégré dans le menu de l’appli d’origine.
+Building games routes “/games” in existant menu.
 
-Création d’un composant du jeu inséré dans une section, elle même inséré dans une modale installé via un package.
+Building a component for 2048 game. 
 
-svelte-simple-modal
+Installing modal package
 
-Cycle de vie des composants :
+npm i svelte-simple-modal
 
-onMount() -> permet de lancer des fonctions au chargement du composant
+Lifecycle component :
+
+onMount() -> launch when the component is mounting
 
 Les variables déclarées sont par défaut réactives au différent changement d’état au fil des réactions aux divers événements.
 

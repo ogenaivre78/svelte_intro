@@ -25,7 +25,6 @@
 		<span
 			style="display: inline-block"
 			in:fly={{ y: -20, duration: 1000 }}
-			out:fly={{ y: 20, duration: 1000 }}
 		>
 			{textTile}
 		</span>
